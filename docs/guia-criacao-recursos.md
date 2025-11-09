@@ -12,18 +12,18 @@ Este guia apresenta os passos para criar recursos no Azure usando a CLI e templa
 
 **2. Implantar Data Factory**
 
-   `bash
+   ```bash
    az deployment group create \
      --resource-group rg-monitoramento \
      --template-file infra/arm-template.json \
      --parameters @infra/parameters.json
-   `
+   ```
 
 **3. Configurar Monitoramento**
 
-   `bash
+   ```bash
    az monitor budget create ...
-   `
+   ```
 
 **4. Importar Pipeline**
 
