@@ -11,6 +11,7 @@ Este guia apresenta os passos para criar recursos no Azure usando a CLI e templa
 ---
 
 **2. Implantar Data Factory**
+
    `bash
    az deployment group create \
      --resource-group rg-monitoramento \
@@ -19,11 +20,13 @@ Este guia apresenta os passos para criar recursos no Azure usando a CLI e templa
    `
 
 **3. Configurar Monitoramento**
+
    `bash
    az monitor budget create ...
    `
 
 **4. Importar Pipeline**
+
    - Acesse o Azure Data Factory.
    - Vá em "Author" > "Import Pipeline".
    - Use o arquivo datafactory/pipeline-monitoramento.json.
