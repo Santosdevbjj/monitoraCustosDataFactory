@@ -6,6 +6,19 @@
 
 **Bootcamp Microsoft AI for Tech - Azure Databricks.**
 
+---
+
+**DESCRIÇÃO:**
+Neste projeto, é apresentada uma visão prática do ambiente Azure a partir da criação de recursos com uma conta gratuita de estudante. 
+
+O foco está em configurar o Azure Data Factory e preparar o ambiente para monitorar o uso e os custos dos recursos implantados. 
+
+São abordados temas como: estruturação de assinaturas, criação de grupos de recursos, boas práticas de nomenclatura, personalização de dashboards, utilização de métricas e alertas de custo. 
+
+Também é demonstrada a criação de templates de infraestrutura como código (ARM Templates) e a utilização do Azure Cloud Shell para automações via linha de comando. 
+
+O projeto oferece um passo a passo completo desde a criação do recurso até a visualização dos dados de consumo, promovendo uma compreensão clara sobre o controle de custos e a organização de recursos dentro do Azure.
+
 
 ---
 
@@ -13,7 +26,9 @@
 
 **Monitoramento de Custos no Azure Data Factory**
 
-Este projeto demonstra como configurar o Azure Data Factory para monitorar o uso e os custos dos recursos em uma conta gratuita de estudante. Utilizamos automações com ARM Templates e Azure Cloud Shell, boas práticas de nomenclatura, dashboards personalizados e alertas de custo para garantir controle e eficiência no ambiente Azure.
+Este projeto demonstra como configurar o Azure Data Factory para monitorar o uso e os custos dos recursos em uma conta gratuita de estudante.
+
+Utilizamos automações com ARM Templates e Azure Cloud Shell, boas práticas de nomenclatura, dashboards personalizados e alertas de custo para garantir controle e eficiência no ambiente Azure.
 
 ---
 
@@ -43,19 +58,19 @@ Este projeto demonstra como configurar o Azure Data Factory para monitorar o uso
 🚀 **Como Executar o Projeto**
 
 **1. Clone o repositório**
-   `bash
+   ```bash
    git clone https://github.com/Santosdevbjj/monitoraCustosDataFactory.git
    cd monitoraCustosDataFactory
-   `
+   ```
 
 **2. Abra o Azure Cloud Shell no portal Azure.**
 
 **3. Execute os scripts na ordem abaixo:**
-   `bash
+   ```bash
    bash scripts/create-resourcegroup.sh
    bash scripts/deploy-arm.sh
    bash scripts/setup-monitoring.sh
-   `
+   ```
 
 **4. Importe o pipeline no Data Factory**
    - Acesse o recurso df-monitoramento no portal.
