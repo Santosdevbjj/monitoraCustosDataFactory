@@ -1,0 +1,31 @@
+{
+  "name": "pipeline-monitoramento",
+  "properties": {
+    "activities": [
+      {
+        "name": "VerificarCustos",
+        "type": "WebActivity",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "7.00:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "typeProperties": {
+          "url": "https://management.azure.com/subscriptions/<subscription-id>/providers/Microsoft.CostManagement/query?api-version=2021-10-01",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": "{ \"type\": \"ActualCost\" }"
+        },
+        "linkedServiceName": {
+          "referenceName": "AzureBlobStorageLinkedService",
+          "type": "LinkedServiceReference"
+        }
+      }
+    ]
+  }
+}
