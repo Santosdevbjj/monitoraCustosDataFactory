@@ -1,4 +1,4 @@
-# Criando um Monitoramento de Custos no Data Factory
+# Criando um Monitoramento de Custos no Data Factory 
 
 
 ![Azure_Databricks01](https://github.com/user-attachments/assets/35aa3648-d90d-4d8a-9d95-69b5248f1956)
