@@ -143,7 +143,7 @@ bash scripts/setup-monitoring.sh           # Configuração de alertas de custo
 
 
 
-> ​![Dashboard de Custos](dashboards/custo-dashboard.png)
+ ​![Dashboard de Custos](dashboards/custo-dashboard.png)
 
 
 
