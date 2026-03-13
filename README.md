@@ -1,4 +1,10 @@
 # Monitoramento de Custos no Azure Data Factory
+
+<p align="center">
+  <img src="dashboards/custo-dashboard.png" alt="Custos no Azure Data Factory" width="600"/>
+</p>
+
+
 ### Governança Financeira • Infraestrutura como Código • Azure Cost Management • DataOps
 
 ![Azure_Databricks01](https://github.com/user-attachments/assets/35aa3648-d90d-4d8a-9d95-69b5248f1956)
